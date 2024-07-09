@@ -27,108 +27,119 @@ Partial Class FormKasir
         Label3 = New Label()
         Label4 = New Label()
         Label5 = New Label()
-        TextBox1 = New TextBox()
-        TextBox2 = New TextBox()
-        TextBox3 = New TextBox()
-        TextBox4 = New TextBox()
-        TextBox5 = New TextBox()
+        TextKode = New TextBox()
+        TextNama = New TextBox()
+        TextHarga = New TextBox()
+        TextJumlah = New TextBox()
+        TextSub = New TextBox()
+        BtnSimpan = New Button()
         SuspendLayout()
         ' 
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Location = New Point(48, 48)
+        Label1.Location = New Point(13, 15)
         Label1.Margin = New Padding(4, 0, 4, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(58, 20)
+        Label1.Size = New Size(104, 20)
         Label1.TabIndex = 0
-        Label1.Text = "Label1"
+        Label1.Text = "Kode Barang"
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Location = New Point(48, 79)
+        Label2.Location = New Point(13, 49)
         Label2.Margin = New Padding(4, 0, 4, 0)
         Label2.Name = "Label2"
-        Label2.Size = New Size(58, 20)
+        Label2.Size = New Size(108, 20)
         Label2.TabIndex = 1
-        Label2.Text = "Label2"
+        Label2.Text = "Nama Barang"
         ' 
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Location = New Point(48, 109)
+        Label3.Location = New Point(13, 83)
         Label3.Margin = New Padding(4, 0, 4, 0)
         Label3.Name = "Label3"
-        Label3.Size = New Size(58, 20)
+        Label3.Size = New Size(106, 20)
         Label3.TabIndex = 2
-        Label3.Text = "Label3"
+        Label3.Text = "Harga Satuan"
         ' 
         ' Label4
         ' 
         Label4.AutoSize = True
-        Label4.Location = New Point(48, 152)
+        Label4.Location = New Point(13, 117)
         Label4.Margin = New Padding(4, 0, 4, 0)
         Label4.Name = "Label4"
-        Label4.Size = New Size(58, 20)
+        Label4.Size = New Size(93, 20)
         Label4.TabIndex = 3
-        Label4.Text = "Label4"
+        Label4.Text = "Jumlah Beli"
         ' 
         ' Label5
         ' 
         Label5.AutoSize = True
-        Label5.Location = New Point(48, 184)
+        Label5.Location = New Point(13, 151)
         Label5.Margin = New Padding(4, 0, 4, 0)
         Label5.Name = "Label5"
-        Label5.Size = New Size(58, 20)
+        Label5.Size = New Size(78, 20)
         Label5.TabIndex = 4
-        Label5.Text = "Label5"
+        Label5.Text = "Sub total "
         ' 
-        ' TextBox1
+        ' TextKode
         ' 
-        TextBox1.Location = New Point(166, 48)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(125, 28)
-        TextBox1.TabIndex = 5
+        TextKode.Location = New Point(128, 12)
+        TextKode.Name = "TextKode"
+        TextKode.Size = New Size(125, 28)
+        TextKode.TabIndex = 5
         ' 
-        ' TextBox2
+        ' TextNama
         ' 
-        TextBox2.Location = New Point(166, 82)
-        TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(125, 28)
-        TextBox2.TabIndex = 6
+        TextNama.Location = New Point(128, 46)
+        TextNama.Name = "TextNama"
+        TextNama.Size = New Size(125, 28)
+        TextNama.TabIndex = 6
         ' 
-        ' TextBox3
+        ' TextHarga
         ' 
-        TextBox3.Location = New Point(166, 116)
-        TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(125, 28)
-        TextBox3.TabIndex = 7
+        TextHarga.Location = New Point(128, 80)
+        TextHarga.Name = "TextHarga"
+        TextHarga.Size = New Size(125, 28)
+        TextHarga.TabIndex = 7
         ' 
-        ' TextBox4
+        ' TextJumlah
         ' 
-        TextBox4.Location = New Point(166, 149)
-        TextBox4.Name = "TextBox4"
-        TextBox4.Size = New Size(125, 28)
-        TextBox4.TabIndex = 8
+        TextJumlah.Location = New Point(128, 114)
+        TextJumlah.Name = "TextJumlah"
+        TextJumlah.Size = New Size(125, 28)
+        TextJumlah.TabIndex = 8
         ' 
-        ' TextBox5
+        ' TextSub
         ' 
-        TextBox5.Location = New Point(166, 184)
-        TextBox5.Name = "TextBox5"
-        TextBox5.Size = New Size(125, 28)
-        TextBox5.TabIndex = 9
+        TextSub.Location = New Point(128, 148)
+        TextSub.Name = "TextSub"
+        TextSub.Size = New Size(125, 28)
+        TextSub.TabIndex = 9
+        ' 
+        ' BtnSimpan
+        ' 
+        BtnSimpan.Location = New Point(83, 199)
+        BtnSimpan.Name = "BtnSimpan"
+        BtnSimpan.Size = New Size(94, 29)
+        BtnSimpan.TabIndex = 10
+        BtnSimpan.Text = "Simpan"
+        BtnSimpan.UseVisualStyleBackColor = True
         ' 
         ' FormKasir
         ' 
         AutoScaleDimensions = New SizeF(10F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(556, 416)
-        Controls.Add(TextBox5)
-        Controls.Add(TextBox4)
-        Controls.Add(TextBox3)
-        Controls.Add(TextBox2)
-        Controls.Add(TextBox1)
+        ClientSize = New Size(276, 248)
+        Controls.Add(BtnSimpan)
+        Controls.Add(TextSub)
+        Controls.Add(TextJumlah)
+        Controls.Add(TextHarga)
+        Controls.Add(TextNama)
+        Controls.Add(TextKode)
         Controls.Add(Label5)
         Controls.Add(Label4)
         Controls.Add(Label3)
@@ -147,9 +158,10 @@ Partial Class FormKasir
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents TextKode As TextBox
+    Friend WithEvents TextNama As TextBox
+    Friend WithEvents TextHarga As TextBox
+    Friend WithEvents TextJumlah As TextBox
+    Friend WithEvents TextSub As TextBox
+    Friend WithEvents BtnSimpan As Button
 End Class
